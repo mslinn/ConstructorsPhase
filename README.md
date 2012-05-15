@@ -1,0 +1,1 @@
+Example program to sort out trait/case class construction.

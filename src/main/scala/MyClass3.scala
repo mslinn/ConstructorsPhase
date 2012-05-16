@@ -2,12 +2,7 @@
  * Example program to sort out case/case class construction.
  * Output is:
  * {{{
- * BaseKlass.showX: x = X set by BaseKlass2 construction
- * baseKlass.x = X set by BaseKlass2 construction
- * baseKlass.y = Y set by BaseKlass2 construction
- * baseKlass.z = Z set by BaseKlass2 construction
- * myKlass = MyKlass(X set by MyKlass2 construction,Y set by MyKlass2 construction,Z set by MyKlass2 construction)
- * MyKlass.showX: x = X set by MyKlass2 construction
+ * myKlass = MyKlass2(X set by MyKlass2 construction,Y set by MyKlass2 construction,Z set by MyKlass2 construction)
  * }}}
  * @see http://lampwww.epfl.ch/~magarcia/ScalaCompilerCornerReloaded/2011Q2/ConstrPhase.pdf
  * @author Mike Slinn

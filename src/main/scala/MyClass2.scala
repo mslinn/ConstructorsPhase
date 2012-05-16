@@ -17,9 +17,9 @@ class BaseKlass(val x: String, val y: String, val z: String) {
   def showX = println("%s.showX: x = %s".format(getClass.getName, x))
 }
 
-/**@param x erases MyTrait.x and completely replaces it, even from the point of view of methods
+/**@param x erases BaseKlass.x and completely replaces it, even from the point of view of methods
  *          defined in the trait
- * @param y erases MyTrait.y and completely replaces it, even from the point of view of methods
+ * @param y erases BaseKlass.y and completely replaces it, even from the point of view of methods
  *          defined in the trait */
 case class MyKlass(override val x: String, override val y: String, override val z: String) extends BaseKlass(x, y, z)
 
